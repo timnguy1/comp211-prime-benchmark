@@ -1,0 +1,9 @@
+# Compiled C executable
+primes_c
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# macOS files
+.DS_Store
