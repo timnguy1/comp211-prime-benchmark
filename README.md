@@ -40,14 +40,19 @@ Both programs produced matching prime counts at every input limit.
 ## How to Run the Programs
 # C
 Compile: 
+
 **gcc -O2 -Wall -Wextra -o primes_c primes.c**
+
 Run:
+
 **time ./primes_c**
 
 # Python
 Run:
 **time python3 primes.py**
-To change the input size, modify the limit variable in both sources files. Recompil C after changing its source code.
+To change the input size, modify the limit variable in both sources files. 
+
+Recompile C after changing its source code.
 
 ## Limitations
 The Terminal's time command measures total elapsed time, including program startup and shutdown.
